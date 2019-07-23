@@ -1,0 +1,78 @@
+#head{
+    background: cyan;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100px;
+    background: dimgray;
+}
+
+#search{
+    position: absolute;
+    text-align: right;
+    right: 0px;
+    top: 0px;
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    padding-top: 40px;
+}
+
+#head-link {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: darkgrey;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#side-bar{
+    position: fixed;
+    background-color: gainsboro;
+    top: 140px;
+    left: 0px;
+    width: 8%;
+    height: 550px;
+    text-align: center;
+}
+#content{
+    position: absolute;
+    background-color: burlywood;
+    top: 140px;
+    left: 8%;
+    width: 100%;
+}
+
+#footer{
+    position: absolute;
+    background-color: gray;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: right;
+}
+.name{
+    border-radius: 10px;
+}
+.button{
+    border-radius: 10px;
+}
+
+h2{
+    color: floralwhite;
+    position: absolute;
+    right: 20px;
+}
